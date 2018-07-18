@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+  
+  body {
+    text-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  }
+  
+  .container-inner {
+    margin: 0 auto;
+    max-width: 940px; 
+    padding: 0 10px;
+  }
+  
+  .mainContent {
+    background: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb) no-repeat center center; 
+    background-size: cover;
+    height: 870px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 120;
+  }
+  
+  .mainContent .container-inner {
+    position: relative;
+    top: 180px;
+  }
+  
+  .mainContent h1 {
+    color: #fff;
+    line-height: 200px; 
+    font-size: 180px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  @media (min-width:850px) {
+    .mainContent h1 {
+      font-size: 220px;
+    }
+  }
+  
+  .mainContent p {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: -1px;
+    /*text-transform: uppercase;*/ 
+  }
+
+  .mainContent .Greetings {
+      font-size: 60px;
+      margin-bottom: 50px;
+  }
+  
+  /*.btn {
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    text-decoration: none; 
+    transition: background .5s; 
+  }
+  
+  .btn:hover, .nav ul li:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s;  
+  }*/
+  
+  @media (max-width: 500px) {
+    .mainContent h1 {
+      font-size: 50px;
+      line-height: 64px;
+    }
+  }
+
+  i {
+      color: #fff;
+  }
+
